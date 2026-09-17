@@ -1,0 +1,61 @@
+name: ForgeMesh Library
+description: >-
+  A paid, retrieval-only knowledge-base API over a corpus of 61,015 public-domain books, returning real passages with
+  book/author/chapter citations for educational software, tutoring agents, reading apps, and curriculum generators. It
+  exposes 317 pay-per-call endpoints gated only by x402 USDC micropayments on Base mainnet — no API key or account
+  required.
+url: https://raw.githubusercontent.com/api-evangelist/forgemesh-library/refs/heads/main/apis.yml
+created: '2026-09-17'
+modified: '2026-09-17'
+specificationVersion: '0.21'
+tags:
+  - Education
+  - EdTech
+  - Digital Library
+  - Books
+  - Literature
+  - Search
+  - Knowledge Base
+  - Public-Domain Content
+  - AI Agents
+  - Agentic Commerce
+  - Web3
+  - x402
+  - Base
+  - USDC
+apis:
+  - name: ForgeMesh Library API
+    description: >-
+      REST/HTTP API with 317 pay-per-call endpoints over a 61,015-book public-domain corpus, covering curated shelves,
+      per-book Q&A retrieval, reference lookups, and cross-corpus full-text search. Gated by x402 USDC micropayments on
+      Base mainnet.
+    humanURL: https://library.forgemesh.io
+    baseURL: https://library.forgemesh.io
+    tags:
+      - Education
+      - EdTech
+      - Digital Library
+      - Books
+      - Literature
+      - Search
+      - Knowledge Base
+      - Public-Domain Content
+      - AI Agents
+      - Agentic Commerce
+      - Web3
+      - x402
+      - Base
+      - USDC
+    properties:
+      - type: OpenAPI
+        url: https://library.forgemesh.io/openapi.json
+      - type: LLMsTxt
+        url: https://library.forgemesh.io/llms.txt
+maintainers:
+  - FN: ForgeMesh Labs
+    url: https://forgemesh.io
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 90
+  at: '2026-09-17T14:09:04.775Z'
